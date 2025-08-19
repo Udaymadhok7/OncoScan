@@ -4,14 +4,7 @@ import pandas as pd
 import plotly.graph_objects as go
 import numpy as np
 
-hide_st_style = """
-            <style>
-            #MainMenu {visibility: hidden;}
-            footer {visibility: hidden;}
-            header {visibility: hidden;}
-            </style>
-            """
-st.markdown(hide_st_style, unsafe_allow_html=True)
+
 
 def get_clean_data():
     data=pd.read_csv("Data/data.csv")
